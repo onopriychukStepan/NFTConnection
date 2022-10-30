@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: raleway_f;
+  src: url(../fonts/raleway-regular.woff2);
+}
+@font-face {
+  font-family: raleway_f;
+  src: url(../fonts/raleway-black.woff2);
+  font-weight: 900;
+}
+body {
+  font-family: raleway_f, sans-serif;
+  background-color: #b4b4b4;
+}
+
+.name {
+  position: relative;
+  text-align: center;
+  top: 0.25em;
+  font-size: 3em;
+}
+
+.nft1 {
+  position: absolute;
+  top: 5em;
+  width: 20em;
+  height: 22em;
+  left: 1em;
+  border-radius: 20%;
+  border: 1px solid black;
+  background-image: url(../youngworker.png);
+  background-size: cover;
+  box-shadow: 0px 0px 50px black;
+}
+.nft1:hover {
+  display: block;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.eli1 {
+  position: absolute;
+  left: 1.25em;
+  top: 9em;
+  font-size: 50px;
+}
+.nft2 {
+  position: absolute;
+  top: 5em;
+  width: 20em;
+  height: 22em;
+  left: 23em;
+  border-radius: 20%;
+  border: 1px solid black;
+  background-image: url(../youngwomen.png);
+  background-size: cover;
+  box-shadow: 0px 0px 50px black;
+}
+.nft2:hover {
+  display: block;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.eli2 {
+  position: absolute;
+  left: 8.5em;
+  top: 9em;
+  font-size: 50px;
+}
+.nft3 {
+  position: absolute;
+  top: 5em;
+  width: 20em;
+  height: 22em;
+  left: 46em;
+  border-radius: 20%;
+  border: 1px solid black;
+  background-image: url(../Maria.png);
+  background-size: cover;
+  box-shadow: 0px 0px 50px black;
+}
+.nft3:hover {
+  display: block;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.eli3 {
+  position: absolute;
+  left: 16.75em;
+  top: 9em;
+  font-size: 50px;
+}
+.nft4 {
+  position: absolute;
+  top: 5em;
+  width: 20em;
+  height: 22em;
+  left: 69em;
+  border-radius: 20%;
+  border: 1px solid black;
+  background-image: url(../Mechanic.png);
+  background-size: cover;
+  box-shadow: 0px 0px 50px black;
+}
+.nft4:hover {
+  display: block;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.eli4 {
+  position: absolute;
+  left: 24.75em;
+  top: 9em;
+  font-size: 50px;
+}
+.pr {
+  text-align: center;
+  top: 11.5em;
+  font-size: 3em;
+  position: relative;
+}
